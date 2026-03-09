@@ -8,25 +8,13 @@ Repositorio de actividades de estadística con herramientas profesionales para c
 
 ## 📋 Tabla de Contenidos
 
-- [Características](#-características)
 - [Instalación Rápida](#-instalación-rápida)
 - [Uso](#-uso)
 - [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Actividades](#-actividades)
 - [Documentación](#-documentación)
 - [Desarrollo](#-desarrollo)
 - [Scripts Auxiliares](#-scripts-auxiliares)
 - [Licencia](#-licencia)
-
-## ✨ Características
-
-- 🔄 **Conversión automatizada** de notebooks a PDF con preservación de formato
-- 📁 **Organización profesional** por actividades con datos separados
-- 🧪 **Tests unitarios** para garantizar calidad del código
-- 📚 **Documentación completa** con guías paso a paso
-- 🛠️ **Scripts auxiliares** para tareas comunes
-- 🎨 **Configuración personalizable** para templates de PDF
-- ⚡ **CLI intuitivo** con manejo robusto de errores
 
 ## 🚀 Instalación Rápida
 
@@ -133,25 +121,6 @@ mem-estadistics/
 
 📖 [Estructura completa del proyecto](docs/guias/estructura_proyecto.md)
 
-## 📚 Actividades
-
-### [Actividad 2](notebooks/actividades/actividad_2/) - Análisis de Datos
-Análisis usando regresión lineal con datasets de publicidad y colegios.
-
-**Datasets:** `Advertising.xlsx` (14 KB), `Colleges_Reduced.xlsx` (96 KB)
-
-### [Actividad 3](notebooks/actividades/actividad_3/) - Predicción de Precios
-Modelo de regresión lineal múltiple para predecir precios de autos usados.
-
-**Datasets:** `ToyotaCorolla.xlsx` (193 KB, 1,436 registros)
-
-**Resultados:**
-- RMSE: 1,432 euros (K-fold CV con K=13)
-- R²: 87% (alta capacidad explicativa)
-- Variables significativas: Age_08_04, KM, HP, Weight
-
-📖 Ver [README de actividades](notebooks/actividades/README.md) para más detalles
-
 ## 📖 Documentación
 
 ### Guías Principales
@@ -242,14 +211,6 @@ Limpieza de archivos generados
 - 🧹 Limpia archivos temporales de LaTeX
 - 📋 Remueve checkpoints de Jupyter
 
-## 📊 Estadísticas del Proyecto
-
-- **Notebooks**: 3 (2 actividades + 1 ejemplo)
-- **Tests**: 15+ casos de prueba
-- **Documentación**: 5+ guías completas
-- **Líneas de código**: ~1,000 (sin contar notebooks)
-- **Cobertura de tests**: 85%+
-
 ## 🤝 Contribuir
 
 Este es un proyecto educativo, pero las sugerencias son bienvenidas:
@@ -281,7 +242,8 @@ Este proyecto está bajo la Licencia MIT. Ver [LICENSE](LICENSE) para más detal
 
 ## 🙏 Agradecimientos
 
-- Tecnológico de Monterrey - Curso de Estadística
+- Tecnológico de Monterrey - Statistics and Data Science with Applications in Engineering
+- Alan R. Vazquez - Instructor del curso
 - Comunidad de Jupyter y nbconvert
 - Astral-sh por uv
 
