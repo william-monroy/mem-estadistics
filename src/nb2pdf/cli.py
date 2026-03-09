@@ -9,6 +9,7 @@ from pathlib import Path
 
 from .converter import convert_notebook, find_all_notebooks, convert_multiple_notebooks
 from .config import Config
+from .utils import diagnose_system
 
 
 def main():
@@ -60,12 +61,23 @@ Ejemplos:
     )
     
     parser.add_argument(
+        '--check',
+        action='store_true',
+        help='Verificar que todos los requisitos del sistema estén instalados'
+    )
+    
+    parser.add_argument(
         '--version',
         action='version',
         version=f'%(prog)s {Config.PROJECT_ROOT / "src/nb2pdf/__init__.py"}'
     )
     
     args = parser.parse_args()
+    
+    # Si se solicita diagnóstico, ejecutarlo y salir
+    if args.check:
+        all_ok = diagnose_system()
+        sys.exit(0 if all_ok else 1)
     
     # Validar argumentos
     if not args.notebook and not args.all:
@@ -101,9 +113,23 @@ Ejemplos:
     except KeyboardInterrupt:
         print(f"\n{Config.EMOJI_ERROR} Operación cancelada por el usuario")
         sys.exit(130)
+    except FileNotFoundError as e:
+        print(f"{Config.EMOJI_ERROR} Archivo o directorio no encontrado")
+        print(f"   {e}")
+        print(f"\n💡 Verifica que la ruta sea correcta y el archivo exista")
+        sys.exit(1)
+    except PermissionError as e:
+        print(f"{Config.EMOJI_ERROR} Error de permisos")
+        print(f"   {e}")
+        print(f"\n💡 Verifica que tengas permisos de lectura/escritura en el directorio")
+        sys.exit(1)
     except Exception as e:
-        print(f"{Config.EMOJI_ERROR} Error inesperado: {e}")
+        error_type = type(e).__name__
+        print(f"{Config.EMOJI_ERROR} Error inesperado: {error_type}")
+        print(f"   Mensaje: {e}")
+        print(f"\n💡 Ejecuta con --verbose para más detalles: uv run nb2pdf --verbose ...")
         if args.verbose:
+            print(f"\n🔍 Traceback completo:")
             raise
         sys.exit(1)
 

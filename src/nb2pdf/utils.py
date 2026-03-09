@@ -2,8 +2,10 @@
 Funciones auxiliares para el convertidor de notebooks.
 """
 
+import shutil
+import subprocess
 from pathlib import Path
-from typing import List
+from typing import List, Tuple
 from .config import Config
 
 
@@ -105,3 +107,122 @@ def print_header(title: str, emoji: str = ""):
     else:
         print(title)
     print_separator()
+
+
+def check_command_available(command: str) -> Tuple[bool, str]:
+    """
+    Verifica si un comando está disponible en el sistema.
+    
+    Args:
+        command: Nombre del comando a verificar
+        
+    Returns:
+        Tupla (disponible, version/mensaje)
+    """
+    # Verificar si el comando existe
+    if not shutil.which(command):
+        return False, "No encontrado"
+    
+    # Intentar obtener la versión
+    try:
+        result = subprocess.run(
+            [command, '--version'],
+            capture_output=True,
+            text=True,
+            timeout=5
+        )
+        version_output = result.stdout.strip() or result.stderr.strip()
+        # Tomar solo la primera línea
+        version = version_output.split('\n')[0][:50]
+        return True, version
+    except:
+        return True, "Disponible"
+
+
+def diagnose_system() -> bool:
+    """
+    Diagnostica el sistema para verificar que todos los requisitos estén instalados.
+    
+    Returns:
+        True si todos los requisitos están satisfechos
+    """
+    print_header("Diagnóstico del Sistema", "🔍")
+    
+    all_ok = True
+    
+    # Verificar Python
+    print("\n📌 Verificando Python...")
+    python_available, python_version = check_command_available("python3")
+    if python_available:
+        print(f"   ✅ Python: {python_version}")
+    else:
+        print(f"   ❌ Python no encontrado")
+        all_ok = False
+    
+    # Verificar Jupyter
+    print("\n📌 Verificando Jupyter...")
+    jupyter_available, jupyter_version = check_command_available("jupyter")
+    if jupyter_available:
+        print(f"   ✅ Jupyter: {jupyter_version}")
+        
+        # Verificar nbconvert específicamente
+        try:
+            result = subprocess.run(
+                ['jupyter', 'nbconvert', '--version'],
+                capture_output=True,
+                text=True,
+                timeout=5
+            )
+            nbconvert_version = result.stdout.strip()
+            print(f"   ✅ nbconvert: {nbconvert_version}")
+        except:
+            print(f"   ⚠️  nbconvert no disponible")
+            all_ok = False
+    else:
+        print(f"   ❌ Jupyter no encontrado")
+        print(f"      Solución: uv sync")
+        all_ok = False
+    
+    # Verificar Pandoc
+    print("\n📌 Verificando Pandoc...")
+    pandoc_available, pandoc_version = check_command_available("pandoc")
+    if pandoc_available:
+        print(f"   ✅ Pandoc: {pandoc_version}")
+    else:
+        print(f"   ❌ Pandoc no encontrado")
+        print(f"      Soluciones:")
+        print(f"      - macOS: brew install pandoc")
+        print(f"      - Linux: sudo apt-get install pandoc")
+        print(f"      - Windows: https://pandoc.org/installing.html")
+        all_ok = False
+    
+    # Verificar LaTeX
+    print("\n📌 Verificando LaTeX...")
+    latex_commands = ['xelatex', 'pdflatex']
+    latex_found = False
+    
+    for cmd in latex_commands:
+        available, version = check_command_available(cmd)
+        if available:
+            print(f"   ✅ {cmd}: {version}")
+            latex_found = True
+            break
+    
+    if not latex_found:
+        print(f"   ❌ LaTeX no encontrado (xelatex/pdflatex)")
+        print(f"      Soluciones:")
+        print(f"      - macOS: brew install --cask mactex-no-gui")
+        print(f"      - Linux: sudo apt-get install texlive-xetex")
+        print(f"      - Windows: https://miktex.org/download")
+        all_ok = False
+    
+    # Resumen
+    print()
+    print_separator()
+    if all_ok:
+        print(f"✅ Todos los requisitos están instalados correctamente")
+    else:
+        print(f"❌ Algunos requisitos faltan. Instálalos antes de continuar.")
+    print_separator()
+    
+    return all_ok

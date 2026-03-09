@@ -90,9 +90,69 @@ def convert_notebook(
         
     except subprocess.CalledProcessError as e:
         error_msg = f"Error al convertir '{notebook_path.name}'"
+        stderr = e.stderr.strip() if e.stderr else ""
+        
+        # Detectar tipos específicos de errores
+        if "pandoc" in stderr.lower() and ("wasn't found" in stderr.lower() or "not found" in stderr.lower()):
+            print(f"{Config.EMOJI_ERROR} {error_msg}")
+            print(f"\n💡 Causa probable: Pandoc no está instalado o no está en el PATH")
+            print(f"   Solución: Instala Pandoc:")
+            print(f"   - macOS: brew install pandoc")
+            print(f"   - Linux: sudo apt-get install pandoc")
+            print(f"   - Windows: https://pandoc.org/installing.html")
+        elif "xelatex" in stderr.lower() or "pdflatex" in stderr.lower():
+            print(f"{Config.EMOJI_ERROR} {error_msg}")
+            print(f"\n💡 Causa probable: LaTeX no está instalado o no está en el PATH")
+            print(f"   Solución: Instala LaTeX o verifica tu instalación:")
+            print(f"   - macOS: brew install --cask mactex-no-gui")
+            print(f"   - Linux: sudo apt-get install texlive-xetex texlive-fonts-recommended")
+            print(f"   - Windows: https://miktex.org/download")
+        elif "jupyter: command not found" in stderr.lower() or "No such file or directory" in stderr.lower():
+            print(f"{Config.EMOJI_ERROR} {error_msg}")
+            print(f"\n💡 Causa probable: Jupyter no está instalado correctamente")
+            print(f"   Solución: uv sync para reinstalar dependencias")
+        elif "nbformat" in stderr.lower() or "invalid notebook" in stderr.lower():
+            print(f"{Config.EMOJI_ERROR} {error_msg}")
+            print(f"\n💡 Causa probable: El archivo notebook está corrupto o tiene formato inválido")
+            print(f"   Solución: Abre el notebook en Jupyter y verifica que se cargue correctamente")
+        elif "permission denied" in stderr.lower():
+            print(f"{Config.EMOJI_ERROR} {error_msg}")
+            print(f"\n💡 Causa probable: Sin permisos de escritura en '{output_path.parent}'")
+            print(f"   Solución: Verifica los permisos del directorio de salida")
+        else:
+            # Error genérico con detalles
+            print(f"{Config.EMOJI_ERROR} {error_msg}")
+            if stderr:
+                # Mostrar las últimas líneas relevantes del error
+                error_lines = stderr.split('\n')
+                relevant_lines = [line for line in error_lines[-10:] if line.strip()]
+                if relevant_lines:
+                    print(f"\n💡 Detalles del error:")
+                    for line in relevant_lines[-3:]:  # Últimas 3 líneas relevantes
+                        print(f"   {line}")
+        
+        if verbose and stderr:
+            print(f"\n🔍 Error completo:\n{stderr}")
+        
         if verbose:
-            error_msg += f"\n{e.stderr}"
+            raise ConversionError(error_msg) from e
+        
+        return False
+        
+    except FileNotFoundError as e:
+        error_msg = f"Archivo no encontrado: {e.filename if hasattr(e, 'filename') else notebook_path.name}"
         print(f"{Config.EMOJI_ERROR} {error_msg}")
+        print(f"\n💡 Verifica que la ruta del archivo sea correcta")
+        
+        if verbose:
+            raise ConversionError(error_msg) from e
+        
+        return False
+        
+    except PermissionError as e:
+        error_msg = f"Sin permisos para acceder a '{notebook_path.name}'"
+        print(f"{Config.EMOJI_ERROR} {error_msg}")
+        print(f"\n💡 Verifica los permisos del archivo o directorio")
         
         if verbose:
             raise ConversionError(error_msg) from e
@@ -100,10 +160,13 @@ def convert_notebook(
         return False
         
     except Exception as e:
-        error_msg = f"Error inesperado al convertir '{notebook_path.name}': {e}"
+        error_type = type(e).__name__
+        error_msg = f"Error inesperado al convertir '{notebook_path.name}': {error_type}"
         print(f"{Config.EMOJI_ERROR} {error_msg}")
+        print(f"   Mensaje: {str(e)}")
         
         if verbose:
+            print(f"\n🔍 Traceback completo:")
             raise ConversionError(error_msg) from e
         
         return False

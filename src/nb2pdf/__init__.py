@@ -11,9 +11,11 @@ __email__ = "A00829796@tec.mx"
 
 from .converter import convert_notebook, find_all_notebooks
 from .config import Config
+from .utils import diagnose_system
 
 __all__ = [
     "convert_notebook",
     "find_all_notebooks",
+    "diagnose_system",
     "Config",
 ]

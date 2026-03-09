@@ -8,6 +8,8 @@ from nb2pdf.utils import (
     format_file_size,
     validate_notebook_path,
     get_relative_path,
+    check_command_available,
+    diagnose_system,
 )
 
 
@@ -59,3 +61,34 @@ def test_get_relative_path_no_base():
     relative = get_relative_path(path)
     
     assert relative == Path("test.ipynb")
+
+
+def test_check_command_available():
+    """Verifica la detección de comandos disponibles."""
+    # Python debería estar disponible
+    available, version = check_command_available("python3")
+    assert available
+    assert version != "No encontrado"
+    
+    # Comando inexistente no debería estar disponible
+    available, version = check_command_available("comando_que_no_existe_xyz123")
+    assert not available
+    assert version == "No encontrado"
+
+
+def test_diagnose_system(capsys):
+    """Verifica la función de diagnóstico del sistema."""
+    # Ejecutar diagnóstico
+    result = diagnose_system()
+    
+    # Capturar salida
+    captured = capsys.readouterr()
+    
+    # Verificar que se imprime información
+    assert "Diagnóstico del Sistema" in captured.out
+    assert "Verificando Python" in captured.out
+    assert "Verificando Jupyter" in captured.out
+    assert "Verificando LaTeX" in captured.out
+    
+    # El resultado debería ser un booleano
+    assert isinstance(result, bool)
