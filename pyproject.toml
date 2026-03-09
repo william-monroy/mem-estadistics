@@ -1,0 +1,62 @@
+[project]
+name = "mem-estadistics"
+version = "0.2.0"
+description = "Repositorio de actividades de estadística con herramientas de conversión de notebooks a PDF"
+authors = [
+    { name = "William Frank Monroy Mamani", email = "A00829796@tec.mx" }
+]
+readme = "README.md"
+requires-python = ">=3.13"
+license = { text = "MIT" }
+keywords = ["statistics", "jupyter", "notebook", "pdf", "data-analysis"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.13",
+]
+
+dependencies = [
+    "jupyter>=1.1.1",
+    "nbconvert>=7.17.0",
+    "nbformat>=5.10.4",
+    "notebook>=7.5.4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.3.0",
+]
+
+[project.urls]
+Repository = "https://github.com/william-monroy/mem-estadistics"
+Documentation = "https://github.com/william-monroy/mem-estadistics#readme"
+Issues = "https://github.com/william-monroy/mem-estadistics/issues"
+
+[project.scripts]
+nb2pdf = "nb2pdf.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nb2pdf"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+select = ["E", "F", "I", "N", "W"]
+ignore = []
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F401"]
