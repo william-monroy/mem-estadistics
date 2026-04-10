@@ -83,6 +83,11 @@ tmp/
 *.tmp
 *~
 
+# Project-specific generated archives and caches
+challenge.zip
+challenge/documentacion_proyecto_final.zip
+challenge/**/.cache/
+
 # Data (descomentar si no quieres subir datos)
 # notebooks/**/data/*.xlsx
 # notebooks/**/data/*.csv
