@@ -1,0 +1,35 @@
+{
+  "model_name": "Signal feature engineering model",
+  "model_key": "signal_features",
+  "notebook_slug": "challenge_10_signal_features_colab_ultra",
+  "strategy": "colab_ultra_signal_features",
+  "search_profile": "aggressive",
+  "best_stage": "stage2_cv",
+  "best_params": {
+    "feature__raw_pca": 32,
+    "feature__set": "all",
+    "model__C": 6.0,
+    "model__family": "svm",
+    "model__gamma": 0.01,
+    "model__metric": null,
+    "model__n_neighbors": null,
+    "scale__method": "standard"
+  },
+  "validation_accuracy": 0.9445,
+  "validation_confusion_matrix": [
+    [
+      947,
+      53
+    ],
+    [
+      58,
+      942
+    ]
+  ],
+  "oof_accuracy": 0.9403,
+  "oof_path": "/content/challenge_signal_features_ultra_workspace/output/challenge_10_signal_features_colab_ultra/oof_probabilities.csv",
+  "test_probability_path": "/content/challenge_signal_features_ultra_workspace/output/challenge_10_signal_features_colab_ultra/test_probabilities.csv",
+  "submission_path": "/content/challenge_signal_features_ultra_workspace/submissions/challenge_10_signal_features_colab_ultra_submission.csv",
+  "workspace_root": "/content/challenge_signal_features_ultra_workspace",
+  "persist_root": "/content/challenge_signal_features_ultra_workspace/output/challenge_10_signal_features_colab_ultra"
+}

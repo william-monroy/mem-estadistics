@@ -1,0 +1,18 @@
+{
+  "model_name": "Support vector machine (RBF)",
+  "notebook_slug": "challenge_06_svm_colab_ultra",
+  "strategy": "colab_ultra_staged_resume_search",
+  "search_profile": "aggressive",
+  "svm_cache_mb": 512,
+  "best_stage": "stage4_stability",
+  "best_params": {
+    "model__C": 3.0,
+    "model__gamma": 0.01,
+    "pca__n_components": 128
+  },
+  "best_search_stage_score": 0.8028333333333334,
+  "validation_accuracy": 0.841,
+  "submission_path": "/content/challenge_svm_ultra_workspace/submissions/challenge_06_svm_colab_ultra_submission.csv",
+  "workspace_root": "/content/challenge_svm_ultra_workspace",
+  "persist_root": "/content/challenge_svm_ultra_workspace/output/challenge_06_svm_colab_ultra"
+}

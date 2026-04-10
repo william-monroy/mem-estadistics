@@ -1,0 +1,184 @@
+[
+  {
+    "candidate_id": "stage4_000",
+    "source": "stage4_center_from_stage3",
+    "params": {
+      "criterion": "log_loss",
+      "max_depth": 40,
+      "max_features": 0.35,
+      "max_samples": null,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 40, \"max_features\": 0.35, \"max_samples\": null, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage4_001",
+    "source": "stage4_depth_probe",
+    "params": {
+      "criterion": "log_loss",
+      "max_depth": 32,
+      "max_features": 0.35,
+      "max_samples": null,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 32, \"max_features\": 0.35, \"max_samples\": null, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage4_002",
+    "source": "stage4_depth_probe",
+    "params": {
+      "criterion": "log_loss",
+      "max_depth": 48,
+      "max_features": 0.35,
+      "max_samples": null,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 48, \"max_features\": 0.35, \"max_samples\": null, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage4_003",
+    "source": "stage4_depth_probe",
+    "params": {
+      "criterion": "log_loss",
+      "max_depth": null,
+      "max_features": 0.35,
+      "max_samples": null,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": null, \"max_features\": 0.35, \"max_samples\": null, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage4_004",
+    "source": "stage4_leaf_probe",
+    "params": {
+      "criterion": "log_loss",
+      "max_depth": 40,
+      "max_features": 0.35,
+      "max_samples": null,
+      "min_samples_leaf": 2,
+      "min_samples_split": 2
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 40, \"max_features\": 0.35, \"max_samples\": null, \"min_samples_leaf\": 2, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage4_005",
+    "source": "stage4_split_probe",
+    "params": {
+      "criterion": "log_loss",
+      "max_depth": 40,
+      "max_features": 0.35,
+      "max_samples": null,
+      "min_samples_leaf": 1,
+      "min_samples_split": 4
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 40, \"max_features\": 0.35, \"max_samples\": null, \"min_samples_leaf\": 1, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage4_006",
+    "source": "stage4_split_probe",
+    "params": {
+      "criterion": "log_loss",
+      "max_depth": 40,
+      "max_features": 0.35,
+      "max_samples": null,
+      "min_samples_leaf": 1,
+      "min_samples_split": 6
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 40, \"max_features\": 0.35, \"max_samples\": null, \"min_samples_leaf\": 1, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage4_007",
+    "source": "stage4_feature_probe",
+    "params": {
+      "criterion": "log_loss",
+      "max_depth": 40,
+      "max_features": 0.3,
+      "max_samples": null,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 40, \"max_features\": 0.3, \"max_samples\": null, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage4_008",
+    "source": "stage4_feature_probe",
+    "params": {
+      "criterion": "log_loss",
+      "max_depth": 40,
+      "max_features": 0.4,
+      "max_samples": null,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 40, \"max_features\": 0.4, \"max_samples\": null, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage4_009",
+    "source": "stage4_feature_probe",
+    "params": {
+      "criterion": "log_loss",
+      "max_depth": 40,
+      "max_features": "sqrt",
+      "max_samples": null,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 40, \"max_features\": \"sqrt\", \"max_samples\": null, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage4_010",
+    "source": "stage4_sample_probe",
+    "params": {
+      "criterion": "log_loss",
+      "max_depth": 40,
+      "max_features": 0.35,
+      "max_samples": 0.7,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 40, \"max_features\": 0.35, \"max_samples\": 0.7, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage4_011",
+    "source": "stage4_sample_probe",
+    "params": {
+      "criterion": "log_loss",
+      "max_depth": 40,
+      "max_features": 0.35,
+      "max_samples": 0.85,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 40, \"max_features\": 0.35, \"max_samples\": 0.85, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage4_012",
+    "source": "stage4_criterion_probe",
+    "params": {
+      "criterion": "gini",
+      "max_depth": 40,
+      "max_features": 0.35,
+      "max_samples": null,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 40, \"max_features\": 0.35, \"max_samples\": null, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage4_013",
+    "source": "stage4_criterion_probe",
+    "params": {
+      "criterion": "entropy",
+      "max_depth": 40,
+      "max_features": 0.35,
+      "max_samples": null,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 40, \"max_features\": 0.35, \"max_samples\": null, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  }
+]

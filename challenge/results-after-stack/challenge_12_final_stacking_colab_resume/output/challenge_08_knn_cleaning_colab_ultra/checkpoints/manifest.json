@@ -1,0 +1,14 @@
+{
+  "stage1_completed_candidates": 108,
+  "stage1_total_candidates": 108,
+  "stage1_best_holdout_accuracy": 0.7652439024390244,
+  "last_checkpoint_stage": "final_model_complete",
+  "resume_bundle_path": "/content/challenge_knn_cleaning_ultra_workspace/exports/challenge_08_knn_cleaning_colab_ultra_resume.zip",
+  "resume_bundle_size_mb": 0.406,
+  "stage2_completed_candidates": 20,
+  "stage2_total_candidates": 20,
+  "stage2_best_cv_accuracy": 0.7726242115459497,
+  "stage3_completed_candidates": 792,
+  "stage3_total_candidates": 792,
+  "stage3_best_cv_accuracy": 0.7986249999999999
+}

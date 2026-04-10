@@ -1,0 +1,22 @@
+{
+  "model_name": "Random forest",
+  "notebook_slug": "challenge_04_random_forest_colab_ultra",
+  "strategy": "colab_ultra_staged_resume_search",
+  "search_profile": "aggressive",
+  "rf_n_jobs": 1,
+  "best_stage": "stage4_local_cv",
+  "best_n_estimators": 960,
+  "best_params": {
+    "criterion": "gini",
+    "max_depth": 40,
+    "max_features": 0.35,
+    "max_samples": null,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2
+  },
+  "best_cv_accuracy": 0.739875,
+  "validation_accuracy": 0.757,
+  "submission_path": "/content/challenge_random_forest_ultra_workspace/submissions/challenge_04_random_forest_colab_ultra_submission.csv",
+  "workspace_root": "/content/challenge_random_forest_ultra_workspace",
+  "persist_root": "/content/challenge_random_forest_ultra_workspace/output/challenge_04_random_forest_colab_ultra"
+}

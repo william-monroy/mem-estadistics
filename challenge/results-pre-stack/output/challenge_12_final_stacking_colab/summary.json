@@ -1,0 +1,29 @@
+{
+  "model_name": "Final stacking model",
+  "model_key": "final_stacking",
+  "notebook_slug": "challenge_12_final_stacking_colab",
+  "strategy": "focused_weighted_and_logreg_stacking",
+  "discovered_base_models": [
+    "challenge_08_knn_cleaning_colab_ultra",
+    "challenge_10_signal_features_colab_ultra"
+  ],
+  "best_base_models": [
+    "challenge_08_knn_cleaning_colab_ultra",
+    "challenge_10_signal_features_colab_ultra"
+  ],
+  "best_threshold": 0.49,
+  "best_meta_oof_accuracy": 0.9476,
+  "best_candidate": {
+    "meta_family": "weighted_average",
+    "weights": [
+      0.425,
+      0.575
+    ],
+    "C": null
+  },
+  "meta_oof_path": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/results-pre-stack/output/challenge_12_final_stacking_colab/meta_oof_probabilities.csv",
+  "meta_test_path": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/results-pre-stack/output/challenge_12_final_stacking_colab/meta_test_probabilities.csv",
+  "submission_path": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/results-pre-stack/submissions/challenge_12_final_stacking_colab_submission.csv",
+  "workspace_root": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/results-pre-stack",
+  "persist_root": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/results-pre-stack/output/challenge_12_final_stacking_colab"
+}

@@ -1,0 +1,9 @@
+{
+  "last_checkpoint_stage": "final_model_complete",
+  "best_base_models": [
+    "challenge_08_knn_cleaning_colab_ultra",
+    "challenge_10_signal_features_colab_ultra"
+  ],
+  "best_threshold": 0.49,
+  "best_meta_oof_accuracy": 0.9476
+}

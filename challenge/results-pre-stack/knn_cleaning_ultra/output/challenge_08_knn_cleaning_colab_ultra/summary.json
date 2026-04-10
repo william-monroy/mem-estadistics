@@ -1,0 +1,33 @@
+{
+  "model_name": "KNN with instance cleaning",
+  "model_key": "knn_cleaning",
+  "notebook_slug": "challenge_08_knn_cleaning_colab_ultra",
+  "strategy": "colab_ultra_cleaning_search",
+  "search_profile": "aggressive",
+  "best_stage": "stage3_local_cv",
+  "best_params": {
+    "clean__method": "none",
+    "model__metric": "manhattan",
+    "model__n_neighbors": 2,
+    "model__weights": "distance",
+    "pca__n_components": 64,
+    "scale__method": "standard"
+  },
+  "validation_accuracy": 0.817,
+  "validation_confusion_matrix": [
+    [
+      781,
+      219
+    ],
+    [
+      147,
+      853
+    ]
+  ],
+  "oof_accuracy": 0.8145,
+  "oof_path": "/content/challenge_knn_cleaning_ultra_workspace/output/challenge_08_knn_cleaning_colab_ultra/oof_probabilities.csv",
+  "test_probability_path": "/content/challenge_knn_cleaning_ultra_workspace/output/challenge_08_knn_cleaning_colab_ultra/test_probabilities.csv",
+  "submission_path": "/content/challenge_knn_cleaning_ultra_workspace/submissions/challenge_08_knn_cleaning_colab_ultra_submission.csv",
+  "workspace_root": "/content/challenge_knn_cleaning_ultra_workspace",
+  "persist_root": "/content/challenge_knn_cleaning_ultra_workspace/output/challenge_08_knn_cleaning_colab_ultra"
+}

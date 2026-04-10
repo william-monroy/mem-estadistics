@@ -1,0 +1,1406 @@
+[
+  {
+    "candidate_id": "stage1_000",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 36,
+      "model__n_neighbors": 11,
+      "model__metric": "manhattan",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_001",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 36,
+      "model__n_neighbors": 5,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_002",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 36,
+      "model__n_neighbors": 9,
+      "model__metric": "manhattan",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 9, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_003",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 40,
+      "model__n_neighbors": 9,
+      "model__metric": "manhattan",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 9, \"model__weights\": \"distance\", \"pca__n_components\": 40, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_004",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 48,
+      "model__n_neighbors": 4,
+      "model__metric": "manhattan",
+      "clean__method": "tomek",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"tomek\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 48, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_005",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 32,
+      "model__n_neighbors": 7,
+      "model__metric": "manhattan",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 7, \"model__weights\": \"distance\", \"pca__n_components\": 32, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_006",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 64,
+      "model__n_neighbors": 5,
+      "model__metric": "manhattan",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 64, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_007",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 44,
+      "model__n_neighbors": 9,
+      "model__metric": "euclidean",
+      "clean__method": "renn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 9, \"model__weights\": \"distance\", \"pca__n_components\": 44, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_008",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 40,
+      "model__n_neighbors": 5,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 40, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_009",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 44,
+      "model__n_neighbors": 3,
+      "model__metric": "euclidean",
+      "clean__method": "enn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn5\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 3, \"model__weights\": \"distance\", \"pca__n_components\": 44, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_010",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 48,
+      "model__n_neighbors": 6,
+      "model__metric": "manhattan",
+      "clean__method": "renn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn3\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 48, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_011",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 56,
+      "model__n_neighbors": 9,
+      "model__metric": "euclidean",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 9, \"model__weights\": \"distance\", \"pca__n_components\": 56, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_012",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 56,
+      "model__n_neighbors": 4,
+      "model__metric": "manhattan",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 56, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_013",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 52,
+      "model__n_neighbors": 4,
+      "model__metric": "manhattan",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 52, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_014",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 56,
+      "model__n_neighbors": 6,
+      "model__metric": "manhattan",
+      "clean__method": "renn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn3\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 56, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_015",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 48,
+      "model__n_neighbors": 11,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.05",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.05\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 48, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_016",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 52,
+      "model__n_neighbors": 5,
+      "model__metric": "manhattan",
+      "clean__method": "renn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn3\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 52, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_017",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 40,
+      "model__n_neighbors": 6,
+      "model__metric": "euclidean",
+      "clean__method": "tomek",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"tomek\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 40, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_018",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 44,
+      "model__n_neighbors": 4,
+      "model__metric": "manhattan",
+      "clean__method": "tomek",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"tomek\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 44, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_019",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 56,
+      "model__n_neighbors": 3,
+      "model__metric": "manhattan",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 3, \"model__weights\": \"distance\", \"pca__n_components\": 56, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_020",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 48,
+      "model__n_neighbors": 11,
+      "model__metric": "euclidean",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 48, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_021",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 56,
+      "model__n_neighbors": 5,
+      "model__metric": "euclidean",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 56, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_022",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 60,
+      "model__n_neighbors": 6,
+      "model__metric": "euclidean",
+      "clean__method": "enn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn5\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 60, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_023",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 36,
+      "model__n_neighbors": 4,
+      "model__metric": "euclidean",
+      "clean__method": "none",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"none\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_024",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 64,
+      "model__n_neighbors": 3,
+      "model__metric": "manhattan",
+      "clean__method": "lof_0.05",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.05\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 3, \"model__weights\": \"distance\", \"pca__n_components\": 64, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_025",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 40,
+      "model__n_neighbors": 9,
+      "model__metric": "manhattan",
+      "clean__method": "lof_0.05",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.05\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 9, \"model__weights\": \"distance\", \"pca__n_components\": 40, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_026",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 44,
+      "model__n_neighbors": 11,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 44, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_027",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 40,
+      "model__n_neighbors": 5,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 40, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_028",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 36,
+      "model__n_neighbors": 4,
+      "model__metric": "euclidean",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_029",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 64,
+      "model__n_neighbors": 5,
+      "model__metric": "manhattan",
+      "clean__method": "tomek",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"tomek\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 64, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_030",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 36,
+      "model__n_neighbors": 3,
+      "model__metric": "manhattan",
+      "clean__method": "tomek",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"tomek\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 3, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_031",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 40,
+      "model__n_neighbors": 3,
+      "model__metric": "euclidean",
+      "clean__method": "tomek",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"tomek\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 3, \"model__weights\": \"distance\", \"pca__n_components\": 40, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_032",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 60,
+      "model__n_neighbors": 9,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 9, \"model__weights\": \"distance\", \"pca__n_components\": 60, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_033",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 48,
+      "model__n_neighbors": 5,
+      "model__metric": "manhattan",
+      "clean__method": "renn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn3\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 48, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_034",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 44,
+      "model__n_neighbors": 6,
+      "model__metric": "euclidean",
+      "clean__method": "enn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn5\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 44, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_035",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 40,
+      "model__n_neighbors": 3,
+      "model__metric": "manhattan",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 3, \"model__weights\": \"distance\", \"pca__n_components\": 40, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_036",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 52,
+      "model__n_neighbors": 11,
+      "model__metric": "manhattan",
+      "clean__method": "none",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"none\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 52, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_037",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 36,
+      "model__n_neighbors": 5,
+      "model__metric": "manhattan",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_038",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 52,
+      "model__n_neighbors": 7,
+      "model__metric": "euclidean",
+      "clean__method": "tomek",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"tomek\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 7, \"model__weights\": \"distance\", \"pca__n_components\": 52, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_039",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 32,
+      "model__n_neighbors": 4,
+      "model__metric": "euclidean",
+      "clean__method": "enn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn5\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 32, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_040",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 32,
+      "model__n_neighbors": 3,
+      "model__metric": "manhattan",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 3, \"model__weights\": \"distance\", \"pca__n_components\": 32, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_041",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 52,
+      "model__n_neighbors": 4,
+      "model__metric": "manhattan",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 52, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_042",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 44,
+      "model__n_neighbors": 7,
+      "model__metric": "euclidean",
+      "clean__method": "renn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 7, \"model__weights\": \"distance\", \"pca__n_components\": 44, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_043",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 48,
+      "model__n_neighbors": 6,
+      "model__metric": "manhattan",
+      "clean__method": "none",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"none\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 48, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_044",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 60,
+      "model__n_neighbors": 4,
+      "model__metric": "euclidean",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 60, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_045",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 40,
+      "model__n_neighbors": 5,
+      "model__metric": "manhattan",
+      "clean__method": "lof_0.05",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.05\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 40, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_046",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 32,
+      "model__n_neighbors": 4,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 32, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_047",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 32,
+      "model__n_neighbors": 5,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 32, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_048",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 40,
+      "model__n_neighbors": 6,
+      "model__metric": "manhattan",
+      "clean__method": "enn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 40, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_049",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 64,
+      "model__n_neighbors": 11,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.05",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.05\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 64, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_050",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 40,
+      "model__n_neighbors": 4,
+      "model__metric": "euclidean",
+      "clean__method": "renn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 40, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_051",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 44,
+      "model__n_neighbors": 5,
+      "model__metric": "euclidean",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 44, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_052",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 64,
+      "model__n_neighbors": 7,
+      "model__metric": "manhattan",
+      "clean__method": "lof_0.05",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.05\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 7, \"model__weights\": \"distance\", \"pca__n_components\": 64, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_053",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 40,
+      "model__n_neighbors": 4,
+      "model__metric": "manhattan",
+      "clean__method": "none",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"none\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 40, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_054",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 36,
+      "model__n_neighbors": 7,
+      "model__metric": "manhattan",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 7, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_055",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 44,
+      "model__n_neighbors": 6,
+      "model__metric": "manhattan",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 44, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_056",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 40,
+      "model__n_neighbors": 4,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.05",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.05\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 40, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_057",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 40,
+      "model__n_neighbors": 7,
+      "model__metric": "euclidean",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 7, \"model__weights\": \"distance\", \"pca__n_components\": 40, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_058",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 52,
+      "model__n_neighbors": 11,
+      "model__metric": "euclidean",
+      "clean__method": "renn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 52, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_059",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 48,
+      "model__n_neighbors": 6,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 48, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_060",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 32,
+      "model__n_neighbors": 6,
+      "model__metric": "euclidean",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 32, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_061",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 52,
+      "model__n_neighbors": 6,
+      "model__metric": "manhattan",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 52, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_062",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 64,
+      "model__n_neighbors": 4,
+      "model__metric": "euclidean",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 64, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_063",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 56,
+      "model__n_neighbors": 11,
+      "model__metric": "euclidean",
+      "clean__method": "renn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 56, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_064",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 36,
+      "model__n_neighbors": 11,
+      "model__metric": "euclidean",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_065",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 48,
+      "model__n_neighbors": 11,
+      "model__metric": "manhattan",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 48, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_066",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 44,
+      "model__n_neighbors": 9,
+      "model__metric": "euclidean",
+      "clean__method": "enn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn5\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 9, \"model__weights\": \"distance\", \"pca__n_components\": 44, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_067",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 44,
+      "model__n_neighbors": 9,
+      "model__metric": "manhattan",
+      "clean__method": "enn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 9, \"model__weights\": \"distance\", \"pca__n_components\": 44, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_068",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 60,
+      "model__n_neighbors": 9,
+      "model__metric": "manhattan",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 9, \"model__weights\": \"distance\", \"pca__n_components\": 60, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_069",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 32,
+      "model__n_neighbors": 4,
+      "model__metric": "manhattan",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 32, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_070",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 36,
+      "model__n_neighbors": 11,
+      "model__metric": "euclidean",
+      "clean__method": "enn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn5\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_071",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 60,
+      "model__n_neighbors": 11,
+      "model__metric": "euclidean",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 60, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_072",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 40,
+      "model__n_neighbors": 6,
+      "model__metric": "euclidean",
+      "clean__method": "renn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 40, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_073",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 36,
+      "model__n_neighbors": 5,
+      "model__metric": "manhattan",
+      "clean__method": "lof_0.05",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.05\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_074",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 56,
+      "model__n_neighbors": 5,
+      "model__metric": "euclidean",
+      "clean__method": "enn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn5\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 56, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_075",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 52,
+      "model__n_neighbors": 9,
+      "model__metric": "manhattan",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 9, \"model__weights\": \"distance\", \"pca__n_components\": 52, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_076",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 48,
+      "model__n_neighbors": 11,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.05",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.05\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 48, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_077",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 36,
+      "model__n_neighbors": 4,
+      "model__metric": "manhattan",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_078",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 44,
+      "model__n_neighbors": 6,
+      "model__metric": "manhattan",
+      "clean__method": "enn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 44, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_079",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 36,
+      "model__n_neighbors": 6,
+      "model__metric": "euclidean",
+      "clean__method": "renn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_080",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 48,
+      "model__n_neighbors": 11,
+      "model__metric": "manhattan",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 48, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_081",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 64,
+      "model__n_neighbors": 4,
+      "model__metric": "manhattan",
+      "clean__method": "none",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"none\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 64, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_082",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 44,
+      "model__n_neighbors": 6,
+      "model__metric": "euclidean",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 44, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_083",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 32,
+      "model__n_neighbors": 5,
+      "model__metric": "euclidean",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 32, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_084",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 48,
+      "model__n_neighbors": 7,
+      "model__metric": "euclidean",
+      "clean__method": "none",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"none\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 7, \"model__weights\": \"distance\", \"pca__n_components\": 48, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_085",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 48,
+      "model__n_neighbors": 11,
+      "model__metric": "manhattan",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 48, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_086",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 60,
+      "model__n_neighbors": 9,
+      "model__metric": "manhattan",
+      "clean__method": "enn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 9, \"model__weights\": \"distance\", \"pca__n_components\": 60, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_087",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 32,
+      "model__n_neighbors": 11,
+      "model__metric": "manhattan",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 11, \"model__weights\": \"distance\", \"pca__n_components\": 32, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_088",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 32,
+      "model__n_neighbors": 6,
+      "model__metric": "euclidean",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 32, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_089",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 64,
+      "model__n_neighbors": 4,
+      "model__metric": "euclidean",
+      "clean__method": "enn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn5\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 64, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_090",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 56,
+      "model__n_neighbors": 5,
+      "model__metric": "manhattan",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 56, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_091",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 44,
+      "model__n_neighbors": 3,
+      "model__metric": "manhattan",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 3, \"model__weights\": \"distance\", \"pca__n_components\": 44, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_092",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 60,
+      "model__n_neighbors": 5,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 60, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_093",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 48,
+      "model__n_neighbors": 3,
+      "model__metric": "euclidean",
+      "clean__method": "tomek",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"tomek\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 3, \"model__weights\": \"distance\", \"pca__n_components\": 48, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_094",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 36,
+      "model__n_neighbors": 7,
+      "model__metric": "manhattan",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 7, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_095",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 56,
+      "model__n_neighbors": 9,
+      "model__metric": "manhattan",
+      "clean__method": "tomek",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"tomek\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 9, \"model__weights\": \"distance\", \"pca__n_components\": 56, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_096",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 52,
+      "model__n_neighbors": 5,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 52, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_097",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 60,
+      "model__n_neighbors": 7,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 7, \"model__weights\": \"distance\", \"pca__n_components\": 60, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_098",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 40,
+      "model__n_neighbors": 6,
+      "model__metric": "euclidean",
+      "clean__method": "tomek",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"tomek\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 40, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_099",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 32,
+      "model__n_neighbors": 4,
+      "model__metric": "euclidean",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 32, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_100",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 44,
+      "model__n_neighbors": 7,
+      "model__metric": "euclidean",
+      "clean__method": "tomek",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"tomek\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 7, \"model__weights\": \"distance\", \"pca__n_components\": 44, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_101",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 56,
+      "model__n_neighbors": 6,
+      "model__metric": "euclidean",
+      "clean__method": "enn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn5\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 56, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_102",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 48,
+      "model__n_neighbors": 9,
+      "model__metric": "manhattan",
+      "clean__method": "tomek",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"tomek\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 9, \"model__weights\": \"distance\", \"pca__n_components\": 48, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_103",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 44,
+      "model__n_neighbors": 9,
+      "model__metric": "euclidean",
+      "clean__method": "enn3",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn3\", \"model__metric\": \"euclidean\", \"model__n_neighbors\": 9, \"model__weights\": \"distance\", \"pca__n_components\": 44, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_104",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 52,
+      "model__n_neighbors": 6,
+      "model__metric": "manhattan",
+      "clean__method": "enn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"enn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 6, \"model__weights\": \"distance\", \"pca__n_components\": 52, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_105",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "standard",
+      "pca__n_components": 36,
+      "model__n_neighbors": 5,
+      "model__metric": "manhattan",
+      "clean__method": "renn5",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"renn5\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"standard\"}"
+  },
+  {
+    "candidate_id": "stage1_106",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 60,
+      "model__n_neighbors": 4,
+      "model__metric": "manhattan",
+      "clean__method": "lof_0.05",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.05\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 4, \"model__weights\": \"distance\", \"pca__n_components\": 60, \"scale__method\": \"robust\"}"
+  },
+  {
+    "candidate_id": "stage1_107",
+    "source": "stage1_random_holdout",
+    "params": {
+      "scale__method": "robust",
+      "pca__n_components": 36,
+      "model__n_neighbors": 5,
+      "model__metric": "manhattan",
+      "clean__method": "lof_0.03",
+      "model__weights": "distance"
+    },
+    "signature": "{\"clean__method\": \"lof_0.03\", \"model__metric\": \"manhattan\", \"model__n_neighbors\": 5, \"model__weights\": \"distance\", \"pca__n_components\": 36, \"scale__method\": \"robust\"}"
+  }
+]

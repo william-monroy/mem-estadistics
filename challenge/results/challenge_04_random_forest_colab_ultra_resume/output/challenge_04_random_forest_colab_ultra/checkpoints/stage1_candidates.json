@@ -1,0 +1,1250 @@
+[
+  {
+    "candidate_id": "stage1_000",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 1,
+      "max_samples": 0.65,
+      "max_features": 0.35,
+      "max_depth": null,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": null, \"max_features\": 0.35, \"max_samples\": 0.65, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_001",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 6,
+      "max_samples": 0.65,
+      "max_features": 0.7,
+      "max_depth": 32,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 32, \"max_features\": 0.7, \"max_samples\": 0.65, \"min_samples_leaf\": 6, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_002",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 4,
+      "max_samples": 0.9,
+      "max_features": 0.18,
+      "max_depth": 56,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 56, \"max_features\": 0.18, \"max_samples\": 0.9, \"min_samples_leaf\": 4, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_003",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 4,
+      "max_samples": null,
+      "max_features": 0.7,
+      "max_depth": 56,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 56, \"max_features\": 0.7, \"max_samples\": null, \"min_samples_leaf\": 4, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_004",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 6,
+      "max_samples": 0.9,
+      "max_features": 0.12,
+      "max_depth": 32,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 32, \"max_features\": 0.12, \"max_samples\": 0.9, \"min_samples_leaf\": 6, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_005",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 4,
+      "max_samples": 0.8,
+      "max_features": 0.35,
+      "max_depth": 40,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 40, \"max_features\": 0.35, \"max_samples\": 0.8, \"min_samples_leaf\": 4, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_006",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 2,
+      "max_samples": 0.65,
+      "max_features": 0.12,
+      "max_depth": 56,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 56, \"max_features\": 0.12, \"max_samples\": 0.65, \"min_samples_leaf\": 2, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_007",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 6,
+      "max_samples": null,
+      "max_features": 0.7,
+      "max_depth": 32,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 32, \"max_features\": 0.7, \"max_samples\": null, \"min_samples_leaf\": 6, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_008",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 3,
+      "max_samples": 0.65,
+      "max_features": 0.12,
+      "max_depth": null,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": null, \"max_features\": 0.12, \"max_samples\": 0.65, \"min_samples_leaf\": 3, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_009",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 4,
+      "max_samples": 0.9,
+      "max_features": 0.25,
+      "max_depth": 24,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 24, \"max_features\": 0.25, \"max_samples\": 0.9, \"min_samples_leaf\": 4, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_010",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 4,
+      "max_samples": null,
+      "max_features": 0.18,
+      "max_depth": 24,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 24, \"max_features\": 0.18, \"max_samples\": null, \"min_samples_leaf\": 4, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_011",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 3,
+      "max_samples": 0.65,
+      "max_features": "sqrt",
+      "max_depth": 24,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 24, \"max_features\": \"sqrt\", \"max_samples\": 0.65, \"min_samples_leaf\": 3, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_012",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 6,
+      "max_samples": null,
+      "max_features": 0.25,
+      "max_depth": 16,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 16, \"max_features\": 0.25, \"max_samples\": null, \"min_samples_leaf\": 6, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_013",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 2,
+      "max_samples": 0.9,
+      "max_features": 0.7,
+      "max_depth": 40,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 40, \"max_features\": 0.7, \"max_samples\": 0.9, \"min_samples_leaf\": 2, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_014",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 3,
+      "max_samples": null,
+      "max_features": 0.12,
+      "max_depth": 40,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 40, \"max_features\": 0.12, \"max_samples\": null, \"min_samples_leaf\": 3, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_015",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 6,
+      "max_samples": 0.8,
+      "max_features": 0.18,
+      "max_depth": 40,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 40, \"max_features\": 0.18, \"max_samples\": 0.8, \"min_samples_leaf\": 6, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_016",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 4,
+      "max_samples": 0.8,
+      "max_features": 0.18,
+      "max_depth": 16,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 16, \"max_features\": 0.18, \"max_samples\": 0.8, \"min_samples_leaf\": 4, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_017",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 2,
+      "max_samples": 0.65,
+      "max_features": 0.18,
+      "max_depth": 40,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 40, \"max_features\": 0.18, \"max_samples\": 0.65, \"min_samples_leaf\": 2, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_018",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 2,
+      "max_samples": 0.65,
+      "max_features": 0.7,
+      "max_depth": 24,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 24, \"max_features\": 0.7, \"max_samples\": 0.65, \"min_samples_leaf\": 2, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_019",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 2,
+      "max_samples": null,
+      "max_features": 0.5,
+      "max_depth": 16,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 16, \"max_features\": 0.5, \"max_samples\": null, \"min_samples_leaf\": 2, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_020",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 3,
+      "max_samples": null,
+      "max_features": 0.12,
+      "max_depth": 32,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 32, \"max_features\": 0.12, \"max_samples\": null, \"min_samples_leaf\": 3, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_021",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 2,
+      "max_samples": 0.65,
+      "max_features": 0.35,
+      "max_depth": 16,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 16, \"max_features\": 0.35, \"max_samples\": 0.65, \"min_samples_leaf\": 2, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_022",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 3,
+      "max_samples": null,
+      "max_features": 0.7,
+      "max_depth": null,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": null, \"max_features\": 0.7, \"max_samples\": null, \"min_samples_leaf\": 3, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_023",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 6,
+      "max_samples": 0.65,
+      "max_features": 0.5,
+      "max_depth": 24,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 24, \"max_features\": 0.5, \"max_samples\": 0.65, \"min_samples_leaf\": 6, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_024",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 6,
+      "max_samples": null,
+      "max_features": 0.18,
+      "max_depth": 56,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 56, \"max_features\": 0.18, \"max_samples\": null, \"min_samples_leaf\": 6, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_025",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 1,
+      "max_samples": 0.8,
+      "max_features": 0.7,
+      "max_depth": 24,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 24, \"max_features\": 0.7, \"max_samples\": 0.8, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_026",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 6,
+      "max_samples": 0.8,
+      "max_features": 0.25,
+      "max_depth": 24,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 24, \"max_features\": 0.25, \"max_samples\": 0.8, \"min_samples_leaf\": 6, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_027",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 2,
+      "max_samples": 0.8,
+      "max_features": 0.5,
+      "max_depth": 32,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 32, \"max_features\": 0.5, \"max_samples\": 0.8, \"min_samples_leaf\": 2, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_028",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 3,
+      "max_samples": 0.9,
+      "max_features": 0.12,
+      "max_depth": 24,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 24, \"max_features\": 0.12, \"max_samples\": 0.9, \"min_samples_leaf\": 3, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_029",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 6,
+      "max_samples": 0.9,
+      "max_features": 0.7,
+      "max_depth": 16,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 16, \"max_features\": 0.7, \"max_samples\": 0.9, \"min_samples_leaf\": 6, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_030",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 4,
+      "max_samples": 0.9,
+      "max_features": 0.35,
+      "max_depth": 24,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 24, \"max_features\": 0.35, \"max_samples\": 0.9, \"min_samples_leaf\": 4, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_031",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 3,
+      "max_samples": 0.8,
+      "max_features": 0.7,
+      "max_depth": 32,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 32, \"max_features\": 0.7, \"max_samples\": 0.8, \"min_samples_leaf\": 3, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_032",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 6,
+      "max_samples": 0.9,
+      "max_features": 0.25,
+      "max_depth": 24,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 24, \"max_features\": 0.25, \"max_samples\": 0.9, \"min_samples_leaf\": 6, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_033",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 3,
+      "max_samples": 0.8,
+      "max_features": 0.18,
+      "max_depth": null,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": null, \"max_features\": 0.18, \"max_samples\": 0.8, \"min_samples_leaf\": 3, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_034",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 2,
+      "max_samples": 0.8,
+      "max_features": 0.7,
+      "max_depth": 24,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 24, \"max_features\": 0.7, \"max_samples\": 0.8, \"min_samples_leaf\": 2, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_035",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 1,
+      "max_samples": 0.9,
+      "max_features": 0.7,
+      "max_depth": 24,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 24, \"max_features\": 0.7, \"max_samples\": 0.9, \"min_samples_leaf\": 1, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_036",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 4,
+      "max_samples": 0.65,
+      "max_features": 0.18,
+      "max_depth": 16,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 16, \"max_features\": 0.18, \"max_samples\": 0.65, \"min_samples_leaf\": 4, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_037",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 6,
+      "max_samples": null,
+      "max_features": 0.35,
+      "max_depth": 40,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 40, \"max_features\": 0.35, \"max_samples\": null, \"min_samples_leaf\": 6, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_038",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 6,
+      "max_samples": null,
+      "max_features": "sqrt",
+      "max_depth": 16,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 16, \"max_features\": \"sqrt\", \"max_samples\": null, \"min_samples_leaf\": 6, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_039",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 2,
+      "max_samples": 0.65,
+      "max_features": 0.35,
+      "max_depth": 24,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 24, \"max_features\": 0.35, \"max_samples\": 0.65, \"min_samples_leaf\": 2, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_040",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 3,
+      "max_samples": 0.65,
+      "max_features": 0.5,
+      "max_depth": 24,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 24, \"max_features\": 0.5, \"max_samples\": 0.65, \"min_samples_leaf\": 3, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_041",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 3,
+      "max_samples": 0.9,
+      "max_features": 0.25,
+      "max_depth": 32,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 32, \"max_features\": 0.25, \"max_samples\": 0.9, \"min_samples_leaf\": 3, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_042",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 6,
+      "max_samples": 0.65,
+      "max_features": 0.7,
+      "max_depth": 56,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 56, \"max_features\": 0.7, \"max_samples\": 0.65, \"min_samples_leaf\": 6, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_043",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 2,
+      "max_samples": 0.8,
+      "max_features": 0.5,
+      "max_depth": 40,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 40, \"max_features\": 0.5, \"max_samples\": 0.8, \"min_samples_leaf\": 2, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_044",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 6,
+      "max_samples": 0.8,
+      "max_features": 0.25,
+      "max_depth": 40,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 40, \"max_features\": 0.25, \"max_samples\": 0.8, \"min_samples_leaf\": 6, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_045",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 1,
+      "max_samples": 0.8,
+      "max_features": 0.35,
+      "max_depth": 40,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 40, \"max_features\": 0.35, \"max_samples\": 0.8, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_046",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 3,
+      "max_samples": null,
+      "max_features": "sqrt",
+      "max_depth": 24,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 24, \"max_features\": \"sqrt\", \"max_samples\": null, \"min_samples_leaf\": 3, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_047",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 4,
+      "max_samples": null,
+      "max_features": 0.35,
+      "max_depth": 40,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 40, \"max_features\": 0.35, \"max_samples\": null, \"min_samples_leaf\": 4, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_048",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 1,
+      "max_samples": null,
+      "max_features": 0.5,
+      "max_depth": 56,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 56, \"max_features\": 0.5, \"max_samples\": null, \"min_samples_leaf\": 1, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_049",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 2,
+      "max_samples": 0.9,
+      "max_features": 0.25,
+      "max_depth": 40,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 40, \"max_features\": 0.25, \"max_samples\": 0.9, \"min_samples_leaf\": 2, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_050",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 6,
+      "max_samples": 0.8,
+      "max_features": "sqrt",
+      "max_depth": null,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": null, \"max_features\": \"sqrt\", \"max_samples\": 0.8, \"min_samples_leaf\": 6, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_051",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 3,
+      "max_samples": 0.8,
+      "max_features": 0.18,
+      "max_depth": null,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": null, \"max_features\": 0.18, \"max_samples\": 0.8, \"min_samples_leaf\": 3, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_052",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 2,
+      "max_samples": 0.9,
+      "max_features": 0.5,
+      "max_depth": 32,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 32, \"max_features\": 0.5, \"max_samples\": 0.9, \"min_samples_leaf\": 2, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_053",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 1,
+      "max_samples": null,
+      "max_features": 0.7,
+      "max_depth": 40,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 40, \"max_features\": 0.7, \"max_samples\": null, \"min_samples_leaf\": 1, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_054",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 1,
+      "max_samples": 0.8,
+      "max_features": "sqrt",
+      "max_depth": 24,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 24, \"max_features\": \"sqrt\", \"max_samples\": 0.8, \"min_samples_leaf\": 1, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_055",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 3,
+      "max_samples": 0.8,
+      "max_features": "sqrt",
+      "max_depth": 40,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 40, \"max_features\": \"sqrt\", \"max_samples\": 0.8, \"min_samples_leaf\": 3, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_056",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 2,
+      "max_samples": 0.8,
+      "max_features": 0.25,
+      "max_depth": 16,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 16, \"max_features\": 0.25, \"max_samples\": 0.8, \"min_samples_leaf\": 2, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_057",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 2,
+      "max_samples": null,
+      "max_features": 0.25,
+      "max_depth": 32,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 32, \"max_features\": 0.25, \"max_samples\": null, \"min_samples_leaf\": 2, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_058",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 4,
+      "max_samples": 0.65,
+      "max_features": 0.25,
+      "max_depth": 24,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 24, \"max_features\": 0.25, \"max_samples\": 0.65, \"min_samples_leaf\": 4, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_059",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 4,
+      "max_samples": null,
+      "max_features": 0.7,
+      "max_depth": 24,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 24, \"max_features\": 0.7, \"max_samples\": null, \"min_samples_leaf\": 4, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_060",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 6,
+      "max_samples": null,
+      "max_features": 0.12,
+      "max_depth": 24,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 24, \"max_features\": 0.12, \"max_samples\": null, \"min_samples_leaf\": 6, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_061",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 4,
+      "max_samples": null,
+      "max_features": 0.35,
+      "max_depth": 56,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 56, \"max_features\": 0.35, \"max_samples\": null, \"min_samples_leaf\": 4, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_062",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 1,
+      "max_samples": 0.65,
+      "max_features": 0.25,
+      "max_depth": null,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": null, \"max_features\": 0.25, \"max_samples\": 0.65, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_063",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 3,
+      "max_samples": null,
+      "max_features": "sqrt",
+      "max_depth": 32,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 32, \"max_features\": \"sqrt\", \"max_samples\": null, \"min_samples_leaf\": 3, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_064",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 6,
+      "max_samples": null,
+      "max_features": "sqrt",
+      "max_depth": 24,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 24, \"max_features\": \"sqrt\", \"max_samples\": null, \"min_samples_leaf\": 6, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_065",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 1,
+      "max_samples": 0.8,
+      "max_features": 0.18,
+      "max_depth": 56,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 56, \"max_features\": 0.18, \"max_samples\": 0.8, \"min_samples_leaf\": 1, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_066",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 6,
+      "max_samples": 0.9,
+      "max_features": 0.7,
+      "max_depth": 56,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 56, \"max_features\": 0.7, \"max_samples\": 0.9, \"min_samples_leaf\": 6, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_067",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 6,
+      "max_samples": 0.65,
+      "max_features": 0.12,
+      "max_depth": 40,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 40, \"max_features\": 0.12, \"max_samples\": 0.65, \"min_samples_leaf\": 6, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_068",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 1,
+      "max_samples": 0.65,
+      "max_features": "sqrt",
+      "max_depth": null,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": null, \"max_features\": \"sqrt\", \"max_samples\": 0.65, \"min_samples_leaf\": 1, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_069",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 6,
+      "max_samples": 0.65,
+      "max_features": 0.25,
+      "max_depth": 16,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 16, \"max_features\": 0.25, \"max_samples\": 0.65, \"min_samples_leaf\": 6, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_070",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 3,
+      "max_samples": 0.65,
+      "max_features": 0.5,
+      "max_depth": 32,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 32, \"max_features\": 0.5, \"max_samples\": 0.65, \"min_samples_leaf\": 3, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_071",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 6,
+      "max_samples": 0.9,
+      "max_features": 0.5,
+      "max_depth": 16,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 16, \"max_features\": 0.5, \"max_samples\": 0.9, \"min_samples_leaf\": 6, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_072",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 4,
+      "max_samples": 0.9,
+      "max_features": 0.35,
+      "max_depth": 32,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 32, \"max_features\": 0.35, \"max_samples\": 0.9, \"min_samples_leaf\": 4, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_073",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 6,
+      "max_samples": null,
+      "max_features": 0.7,
+      "max_depth": 32,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 32, \"max_features\": 0.7, \"max_samples\": null, \"min_samples_leaf\": 6, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_074",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 6,
+      "max_samples": 0.9,
+      "max_features": 0.35,
+      "max_depth": null,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": null, \"max_features\": 0.35, \"max_samples\": 0.9, \"min_samples_leaf\": 6, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_075",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 4,
+      "max_samples": null,
+      "max_features": 0.25,
+      "max_depth": 40,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 40, \"max_features\": 0.25, \"max_samples\": null, \"min_samples_leaf\": 4, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_076",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 6,
+      "max_samples": 0.8,
+      "max_features": "sqrt",
+      "max_depth": null,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": null, \"max_features\": \"sqrt\", \"max_samples\": 0.8, \"min_samples_leaf\": 6, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_077",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 6,
+      "max_samples": null,
+      "max_features": 0.35,
+      "max_depth": 32,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 32, \"max_features\": 0.35, \"max_samples\": null, \"min_samples_leaf\": 6, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_078",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 6,
+      "min_samples_leaf": 1,
+      "max_samples": null,
+      "max_features": 0.18,
+      "max_depth": 24,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 24, \"max_features\": 0.18, \"max_samples\": null, \"min_samples_leaf\": 1, \"min_samples_split\": 6}"
+  },
+  {
+    "candidate_id": "stage1_079",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 1,
+      "max_samples": 0.65,
+      "max_features": 0.18,
+      "max_depth": 40,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 40, \"max_features\": 0.18, \"max_samples\": 0.65, \"min_samples_leaf\": 1, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_080",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 2,
+      "max_samples": null,
+      "max_features": 0.18,
+      "max_depth": 16,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 16, \"max_features\": 0.18, \"max_samples\": null, \"min_samples_leaf\": 2, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_081",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 10,
+      "min_samples_leaf": 2,
+      "max_samples": 0.9,
+      "max_features": "sqrt",
+      "max_depth": null,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": null, \"max_features\": \"sqrt\", \"max_samples\": 0.9, \"min_samples_leaf\": 2, \"min_samples_split\": 10}"
+  },
+  {
+    "candidate_id": "stage1_082",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 3,
+      "max_samples": 0.8,
+      "max_features": 0.35,
+      "max_depth": 16,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 16, \"max_features\": 0.35, \"max_samples\": 0.8, \"min_samples_leaf\": 3, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_083",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 1,
+      "max_samples": 0.65,
+      "max_features": 0.7,
+      "max_depth": 24,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 24, \"max_features\": 0.7, \"max_samples\": 0.65, \"min_samples_leaf\": 1, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_084",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 2,
+      "max_samples": null,
+      "max_features": 0.18,
+      "max_depth": 32,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 32, \"max_features\": 0.18, \"max_samples\": null, \"min_samples_leaf\": 2, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_085",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 2,
+      "max_samples": null,
+      "max_features": 0.35,
+      "max_depth": null,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": null, \"max_features\": 0.35, \"max_samples\": null, \"min_samples_leaf\": 2, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_086",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 1,
+      "max_samples": 0.9,
+      "max_features": "sqrt",
+      "max_depth": 32,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 32, \"max_features\": \"sqrt\", \"max_samples\": 0.9, \"min_samples_leaf\": 1, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_087",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 4,
+      "max_samples": 0.9,
+      "max_features": 0.12,
+      "max_depth": 40,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 40, \"max_features\": 0.12, \"max_samples\": 0.9, \"min_samples_leaf\": 4, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_088",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 1,
+      "max_samples": null,
+      "max_features": 0.35,
+      "max_depth": 40,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 40, \"max_features\": 0.35, \"max_samples\": null, \"min_samples_leaf\": 1, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_089",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 6,
+      "max_samples": null,
+      "max_features": 0.5,
+      "max_depth": null,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": null, \"max_features\": 0.5, \"max_samples\": null, \"min_samples_leaf\": 6, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_090",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 4,
+      "max_samples": 0.65,
+      "max_features": 0.7,
+      "max_depth": 32,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 32, \"max_features\": 0.7, \"max_samples\": 0.65, \"min_samples_leaf\": 4, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_091",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 4,
+      "min_samples_leaf": 6,
+      "max_samples": 0.65,
+      "max_features": "sqrt",
+      "max_depth": 16,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 16, \"max_features\": \"sqrt\", \"max_samples\": 0.65, \"min_samples_leaf\": 6, \"min_samples_split\": 4}"
+  },
+  {
+    "candidate_id": "stage1_092",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 2,
+      "max_samples": null,
+      "max_features": 0.12,
+      "max_depth": 56,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 56, \"max_features\": 0.12, \"max_samples\": null, \"min_samples_leaf\": 2, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_093",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 6,
+      "max_samples": 0.8,
+      "max_features": 0.35,
+      "max_depth": 16,
+      "criterion": "entropy"
+    },
+    "signature": "{\"criterion\": \"entropy\", \"max_depth\": 16, \"max_features\": 0.35, \"max_samples\": 0.8, \"min_samples_leaf\": 6, \"min_samples_split\": 14}"
+  },
+  {
+    "candidate_id": "stage1_094",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 2,
+      "min_samples_leaf": 2,
+      "max_samples": 0.8,
+      "max_features": "sqrt",
+      "max_depth": 56,
+      "criterion": "log_loss"
+    },
+    "signature": "{\"criterion\": \"log_loss\", \"max_depth\": 56, \"max_features\": \"sqrt\", \"max_samples\": 0.8, \"min_samples_leaf\": 2, \"min_samples_split\": 2}"
+  },
+  {
+    "candidate_id": "stage1_095",
+    "source": "stage1_random_oob",
+    "params": {
+      "min_samples_split": 14,
+      "min_samples_leaf": 2,
+      "max_samples": 0.9,
+      "max_features": 0.12,
+      "max_depth": 40,
+      "criterion": "gini"
+    },
+    "signature": "{\"criterion\": \"gini\", \"max_depth\": 40, \"max_features\": 0.12, \"max_samples\": 0.9, \"min_samples_leaf\": 2, \"min_samples_split\": 14}"
+  }
+]

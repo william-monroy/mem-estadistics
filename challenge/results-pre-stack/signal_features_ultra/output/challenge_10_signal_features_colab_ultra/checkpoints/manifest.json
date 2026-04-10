@@ -1,0 +1,11 @@
+{
+  "stage1_completed_candidates": 84,
+  "stage1_total_candidates": 84,
+  "stage1_best_holdout_accuracy": 0.9455,
+  "last_checkpoint_stage": "final_model_complete",
+  "resume_bundle_path": "/content/challenge_signal_features_ultra_workspace/exports/challenge_10_signal_features_colab_ultra_resume.zip",
+  "resume_bundle_size_mb": 0.296,
+  "stage2_completed_candidates": 18,
+  "stage2_total_candidates": 18,
+  "stage2_best_cv_accuracy": 0.9356249999999999
+}

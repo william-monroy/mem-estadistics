@@ -1,0 +1,17 @@
+{
+  "stage1_completed_candidates": 96,
+  "stage1_total_candidates": 96,
+  "stage1_best_holdout_accuracy": 0.7778571428571428,
+  "last_checkpoint_stage": "final_model_complete",
+  "resume_bundle_path": "/content/challenge_svm_ultra_workspace/exports/challenge_06_svm_colab_ultra_resume.zip",
+  "resume_bundle_size_mb": 1.083,
+  "stage2_completed_candidates": 18,
+  "stage2_total_candidates": 18,
+  "stage2_best_cv_accuracy": 0.7873762591379002,
+  "stage3_completed_candidates": 896,
+  "stage3_total_candidates": 896,
+  "stage3_best_cv_accuracy": 0.81075,
+  "stage4_completed_candidates": 5,
+  "stage4_total_candidates": 5,
+  "stage4_best_mean_accuracy": 0.8028333333333334
+}
