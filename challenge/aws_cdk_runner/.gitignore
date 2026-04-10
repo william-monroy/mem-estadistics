@@ -1,0 +1,10 @@
+.venv/
+node_modules/
+cdk.out/
+.cdk.staging/
+.cdk-outputs.json
+deploy_config.json
+downloads/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,31 @@
+{
+  "stack_name": "UltraRunnerStack",
+  "aws_profile": null,
+  "aws_region": "us-east-1",
+  "instance_type": "c7a.8xlarge",
+  "volume_size_gb": 200,
+  "profile": "aws_fast",
+  "models": ["knn", "svm", "bagging", "random_forest"],
+  "continue_on_error": false,
+  "sync_outputs_every_stage": true,
+  "create_resume_bundles": true,
+  "include_data_in_bundles": false,
+  "include_data_asset": true,
+  "local_suite_dir": "../aws_ultra_suite",
+  "local_data_dir": "../data",
+  "s3_data_uri": null,
+  "reserve_cpus": 2,
+  "max_cpu_fraction": 0.95,
+  "svm_parallel_jobs": null,
+  "svm_cache_mb": null,
+  "knn_n_jobs": null,
+  "ensemble_n_jobs": null,
+  "terminate_on_success": true,
+  "terminate_on_failure": false,
+  "results_prefix_base": "runs",
+  "results_bucket_name": null,
+  "tags": {
+    "Project": "mem-estadistics-challenge",
+    "ManagedBy": "aws-cdk"
+  }
+}

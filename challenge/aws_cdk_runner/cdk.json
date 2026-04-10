@@ -1,0 +1,4 @@
+{
+  "app": "./scripts/cdk_app.sh",
+  "output": "cdk.out"
+}

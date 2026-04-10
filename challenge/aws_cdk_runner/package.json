@@ -1,0 +1,7 @@
+{
+  "name": "aws-cdk-runner",
+  "private": true,
+  "devDependencies": {
+    "aws-cdk": "^2"
+  }
+}
