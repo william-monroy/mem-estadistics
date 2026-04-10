@@ -1,0 +1,4 @@
+model,validation_accuracy,oof_accuracy,public_score,meta_oof_accuracy
+signal_features,0.9445,0.9403,0.95,
+knn_cleaning,0.817,0.8145,0.83888,
+final_stacking,,,0.96277,0.9476
