@@ -1,0 +1,12 @@
+{
+  "model_name": "K-nearest neighbors",
+  "validation_accuracy": 0.7845,
+  "best_cv_accuracy": 0.754625,
+  "best_params": {
+    "model__n_neighbors": 5,
+    "model__weights": "distance",
+    "pca__n_components": 50
+  },
+  "output_dir": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/output/challenge_01_knn",
+  "submission_path": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/submissions/challenge_01_knn_submission.csv"
+}

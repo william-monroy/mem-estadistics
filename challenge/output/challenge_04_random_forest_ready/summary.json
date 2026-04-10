@@ -1,0 +1,13 @@
+{
+  "model_name": "Random forest",
+  "mode": "fixed_best_params",
+  "validation_accuracy": 0.728,
+  "best_params": {
+    "n_estimators": 100,
+    "max_depth": null,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt"
+  },
+  "output_dir": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/output/challenge_04_random_forest_ready",
+  "submission_path": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/submissions/challenge_04_random_forest_ready_submission.csv"
+}

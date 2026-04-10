@@ -1,0 +1,12 @@
+{
+  "model_name": "Decision tree",
+  "mode": "fixed_best_params",
+  "validation_accuracy": 0.611,
+  "best_params": {
+    "criterion": "gini",
+    "max_depth": 12,
+    "min_samples_leaf": 5
+  },
+  "output_dir": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/output/challenge_03_decision_tree_ready",
+  "submission_path": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/submissions/challenge_03_decision_tree_ready_submission.csv"
+}

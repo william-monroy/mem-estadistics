@@ -1,0 +1,11 @@
+{
+  "model_name": "Logistic regression",
+  "mode": "fixed_best_params",
+  "validation_accuracy": 0.569,
+  "best_params": {
+    "model__C": 1.0,
+    "model__solver": "lbfgs"
+  },
+  "output_dir": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/output/challenge_02_logistic_regression_ready",
+  "submission_path": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/submissions/challenge_02_logistic_regression_ready_submission.csv"
+}

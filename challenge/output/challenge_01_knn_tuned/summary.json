@@ -1,0 +1,25 @@
+{
+  "model_name": "K-nearest neighbors",
+  "strategy": "coarse_to_fine_grid_search",
+  "baseline_reference": {
+    "previous_local_best_validation_accuracy": 0.8285,
+    "goal": "Push KNN beyond the current local baseline and explore whether 0.90 is reachable."
+  },
+  "coarse_best_cv_accuracy": 0.795625,
+  "coarse_best_params": {
+    "model__metric": "manhattan",
+    "model__n_neighbors": 4,
+    "model__weights": "distance",
+    "pca__n_components": 44
+  },
+  "fine_best_cv_accuracy": 0.795625,
+  "fine_best_params": {
+    "model__metric": "manhattan",
+    "model__n_neighbors": 4,
+    "model__weights": "distance",
+    "pca__n_components": 44
+  },
+  "validation_accuracy": 0.822,
+  "output_dir": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/output/challenge_01_knn_tuned",
+  "submission_path": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/submissions/challenge_01_knn_tuned_submission.csv"
+}

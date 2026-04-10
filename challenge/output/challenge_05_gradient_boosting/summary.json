@@ -1,0 +1,13 @@
+{
+  "model_name": "Gradient boosting",
+  "validation_accuracy": 0.6305,
+  "best_cv_accuracy": 0.6345000198306044,
+  "best_params": {
+    "learning_rate": 0.05,
+    "max_depth": 2,
+    "n_estimators": 100,
+    "subsample": 0.7
+  },
+  "output_dir": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/output/challenge_05_gradient_boosting",
+  "submission_path": "/Users/williamfrankmonroymamani/Documents/mem/stadistics/mem-estadistics/challenge/submissions/challenge_05_gradient_boosting_submission.csv"
+}
