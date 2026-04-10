@@ -1,0 +1,11 @@
+{
+  "stage1_completed_candidates": 96,
+  "stage1_total_candidates": 96,
+  "stage1_best_oob_accuracy": 0.72375,
+  "last_checkpoint_stage": "stage1_complete",
+  "resume_bundle_path": "/content/challenge_random_forest_ultra_workspace/exports/challenge_04_random_forest_colab_ultra_resume.zip",
+  "resume_bundle_size_mb": 0.006,
+  "stage2_completed_candidates": 10,
+  "stage2_total_candidates": 18,
+  "stage2_best_cv_accuracy": 0.7301252103427057
+}

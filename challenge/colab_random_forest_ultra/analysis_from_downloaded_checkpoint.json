@@ -1,0 +1,25 @@
+{
+  "stage1_candidates_total": 96,
+  "stage1_candidates_completed": 96,
+  "stage1_best_oob_accuracy": 0.72375,
+  "stage2_shortlist_total_candidates": 18,
+  "stage2_completed_candidates": 10,
+  "stage2_completed_folds": 32,
+  "stage2_total_folds_expected": 54,
+  "stage2_remaining_folds": 22,
+  "stage2_partial_candidate_ids": [
+    "stage1_083"
+  ],
+  "stage2_pending_candidate_ids": [
+    "stage1_083",
+    "stage1_018",
+    "stage1_043",
+    "stage1_068",
+    "stage1_061",
+    "stage1_001",
+    "stage1_037",
+    "stage1_024"
+  ],
+  "stage2_best_cv_accuracy": 0.7301252103427057,
+  "stage2_best_candidate_id": "stage1_088"
+}
